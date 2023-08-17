@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: black;
+}
+#container-background{
+    height: 96vh;
+    background-image: url(image/bac\ pizza.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 83%;
+}
+#navbar-color{
+    background-color: rgba(0,0,0,0.5);
+}
+.navbar-brand{
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+#menu{
+    background-color: rgba(255,187,0);
+}
+.navbar-brand i img{
+    width: 50px;
+}
+#logo-color{
+    color: rgba(255,187,0);
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-nav{
+    margin-left: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+#a{
+    color: rgba(255,187,0);
+}
+.nav-item a{
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.navbar-nav a:hover{
+    color: rgba(255,187,0);
+}
+.nav-item a{
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.navbar-nav a:hover{
+    color: rgba(255,187,0);
+}
+.main-content{
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 160px;
+}
+.main-content h1{
+    font-size: 50px;
+}
+.main-content h2{
+    font-size: 50px;
+}
+.btn1 button{
+    width: 120px;
+    height: 30px;
+    background-color: rgba(255,187,0);
+    font-weight: bold;
+    border: none;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn1 button:hover{
+    background-color: rgba(255,187,0);
+    box-shadow: 0 0 5px #ffc000,
+                0 0 20px #ffc000,
+                0 0 60px #ffc000,
+                0 0 150px #ffc000;
+}
+.pizza-card{
+    margin-top: 30px;
+}
+.pizza-card h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+.card img{
+    background-color: black;
+    cursor: pointer;
+}
+.card-body{
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+}
+.card-body h2{
+    color: white;
+}
+.card-body p{
+    color: white;
+}
+.card-body h5{
+    color: white;
+}
+.btn2{
+    width: 100%;
+}
+.btn2 button{
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   letter-spacing: 2px;
+   font-weight: bold;
+   margin-top: 6px;
+   transition: 0.3s ease;
+   cursor: pointer;
+}
+.btn2 button:hover{
+    background-color: rgba(255,187,0);
+    box-shadow: 0 0 5px #ffc000,
+                0 0 20px #ffc000,
+                0 0 60px #ffc000,
+                0 0 150px #ffc000;
+}
+.checked{
+    color: rgba(255,187,0);
+}
+.banner1{
+    height: 60vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/burger2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    background-position: 69%;
+    font-family: 'Playfair Display', serif;
+}.banner-content{
+    padding-top: 70px;
+    margin-left: 30px;
+}
+.banner-content h1{
+    color: white;
+    font-size: 50px;
+}
+.banner-content h2{
+    color: rgba(255,187,0);
+    font-size: 50px;
+}
+.burger-card{
+    margin-top: 30px;
+}
+.about-us{
+    margin-top: 70px;
+    font-family: 'Playfair Display', serif;
+    background-color: black;
+}
+#read-btn{
+    width: 200px;
+    height: 30px;
+    letter-spacing: 2px;
+}
+.col-md-6 p{
+    color: white;
+    margin-top: 50px;
+}
+.contact-us{
+    margin-top: 50px;
+    background-color: black;
+}
+.contact-us h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+}
+.footer{
+    margin-top: 100px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid white;
+}
+.logo{
+    font-size: 30px;
+}
+.logo i img{
+    width: 50px;
+}
+.side1{
+    margin-left: 20px;
+}
+.links{
+    margin-left: 20px;
+}
+.links i img{
+    background-color: white;
+    border-radius: 50%;
+    width: 25px;
+    cursor: pointer;
+}
+.side2{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.side2 ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.side3{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.side3 i img{
+    margin-left: 20px;
+}
+.side3 h5{
+    font-size: 20px;
+}
+.copy{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
